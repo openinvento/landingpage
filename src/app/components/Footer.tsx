@@ -2,12 +2,10 @@
 import React from "react";
 
 interface FooterProps {
-  iosLink: string;
-  androidLink: string;
   appName: string;
 }
 
-export default function Footer({ iosLink, androidLink, appName }: FooterProps) {
+export default function Footer({ appName }: FooterProps) {
   return (
     <footer className="relative bg-blue-950 text-gray-300 py-6">
       <div className="max-w-6xl mx-auto px-6 md:px-8 flex flex-col md:flex-row justify-between items-center gap-8">
