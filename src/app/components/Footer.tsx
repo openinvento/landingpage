@@ -20,7 +20,7 @@ export default function Footer({ appName }: FooterProps) {
 
       {/* Bottom section */}
       <div className="max-w-6xl mx-auto px-6 md:px-8 mt-6 flex flex-col md:flex-row justify-between items-center text-sm text-blue-300">
-        <p>© {new Date().getFullYear()} {appName}. All rights reserved. This is only a private hobby project.</p>
+        <p>© {new Date().getFullYear()} {appName}. This project is a private, non-commercial public source project. <a href="/privacy" className="hover:underline ml-2 text-blue-200">Privacy Policy</a></p>
       </div>
 
       {/* Subtle background accent */}

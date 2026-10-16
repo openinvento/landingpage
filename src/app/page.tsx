@@ -196,8 +196,13 @@ export default function HomePage() {
             </span>OpenInvento
           </a>
 
-          <p>Self-hosted inventory management, built for your stuff.</p>
-          <div className="flex items-center gap-5"><a className="hover:text-indigo-700" href={`${repositoryUrl}#readme`} target="_blank" rel="noreferrer">Documentation</a><a className="hover:text-indigo-700" href={repositoryUrl} target="_blank" rel="noreferrer">GitHub</a></div>
+          <p>© {new Date().getFullYear()} {"OpenInvento"}. This project is a private, non-commercial public source project. </p>
+
+          <div className="flex items-center gap-5">
+            <a className="hover:text-indigo-700" href={`${repositoryUrl}#readme`} target="_blank" rel="noreferrer">Documentation</a>
+            <a className="hover:text-indigo-700" href={repositoryUrl} target="_blank" rel="noreferrer">GitHub</a>
+            <a href="/privacy" className="">Privacy Policy</a>
+            </div>
         </div>
       </footer>
     </main>
