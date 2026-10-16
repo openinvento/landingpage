@@ -9,6 +9,7 @@ import {
   Squares2X2Icon,
   UsersIcon,
 } from "@heroicons/react/24/outline";
+import Link from "next/link";
 
 const repositoryUrl = "https://github.com/openinvento/openinvento";
 
@@ -201,7 +202,7 @@ export default function HomePage() {
           <div className="flex items-center gap-5">
             <a className="hover:text-indigo-700" href={`${repositoryUrl}#readme`} target="_blank" rel="noreferrer">Documentation</a>
             <a className="hover:text-indigo-700" href={repositoryUrl} target="_blank" rel="noreferrer">GitHub</a>
-            <a href="/privacy" className="">Privacy Policy</a>
+            <Link href="/privacy" className="">Privacy Policy</Link>
             </div>
         </div>
       </footer>
