@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function PrivacyPage() {
   return (
     <main className="overflow-hidden bg-white text-slate-900">
@@ -47,7 +49,7 @@ export default function PrivacyPage() {
 
       {/* Minimaler Footer für die Privacy-Seite */}
       <footer className="border-t border-slate-200 bg-slate-50 py-6 text-center text-xs text-slate-400">
-        <p><a href="/" className="hover:text-slate-600 transition-colors">← Back to Main Page</a></p>
+        <p><Link href="/" className="hover:text-slate-600 transition-colors">← Back to Main Page</Link></p>
       </footer>
     </main>
   );
