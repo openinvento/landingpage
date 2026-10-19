@@ -71,7 +71,7 @@ export default function HomePage() {
             <a className="transition" href="#features">Features</a>
             <a className="transition" href="#how-it-works">Get started</a>
             <a className="transition" href="#faq">FAQ</a>
-            <a className="transition" href="#faq">Documentation</a>
+            <a className="transition" href="https://openinvento.github.io/docs/docs/intro">Documentation</a>
           </nav>
           <a
             href={repositoryUrl}
@@ -184,7 +184,8 @@ export default function HomePage() {
             <details className="group py-5"><summary className="flex cursor-pointer list-none items-center justify-between gap-4 font-semibold"><span>Where does my inventory data live?</span><span className="text-xl text-indigo-600 transition group-open:rotate-45">+</span></summary><p className="mt-3 pr-8 text-sm leading-6 text-slate-600">OpenInvento is self-hosted, so you run it on infrastructure you control. Its Docker setup stores application data in the configured data directory.</p></details>
             <details className="group py-5"><summary className="flex cursor-pointer list-none items-center justify-between gap-4 font-semibold"><span>Can I share an inventory with other people?</span><span className="text-xl text-indigo-600 transition group-open:rotate-45">+</span></summary><p className="mt-3 pr-8 text-sm leading-6 text-slate-600">Yes. OpenInvento supports multiple users and shared inventories, so you can keep a household or team in sync.</p></details>
             <details className="group py-5"><summary className="flex cursor-pointer list-none items-center justify-between gap-4 font-semibold"><span>What kinds of things can I track?</span><span className="text-xl text-indigo-600 transition group-open:rotate-45">+</span></summary><p className="mt-3 pr-8 text-sm leading-6 text-slate-600">Use it for the articles that matter to you: supplies, tools, equipment, collections, and more. QR codes and barcodes help identify items.</p></details>
-            <details className="group py-5"><summary className="flex cursor-pointer list-none items-center justify-between gap-4 font-semibold"><span>How do I get started?</span><span className="text-xl text-indigo-600 transition group-open:rotate-45">+</span></summary><p className="mt-3 pr-8 text-sm leading-6 text-slate-600">Follow the Docker Compose instructions in the repository. Configure the environment values, including your initial admin credentials, before starting the containers.</p></details>
+            <details className="group py-5"><summary className="flex cursor-pointer list-none items-center justify-between gap-4 font-semibold"><span>How do I get started?</span><span className="text-xl text-indigo-600 transition group-open:rotate-45">+</span></summary><p className="mt-3 pr-8 text-sm leading-6 text-slate-600">Follow the Docker Compose instructions in the repository. Configure the environment values, including your initial admin credentials, before starting the containers. Take a look at the documentation for more information.</p></details>
+            <details className="group py-5"><summary className="flex cursor-pointer list-none items-center justify-between gap-4 font-semibold"><span>Is there a documentation available?</span><span className="text-xl text-indigo-600 transition group-open:rotate-45">+</span></summary><p className="mt-3 pr-8 text-sm leading-6 text-slate-600">Yes, you can find the documentation at <a href="https://openinvento.github.io/docs/docs/intro" className="text-indigo-600 hover:underline">https://openinvento.github.io/docs/docs/intro</a>.</p></details>
           </div>
         </div>
       </section>
@@ -200,7 +201,7 @@ export default function HomePage() {
           <p>© {new Date().getFullYear()} {"OpenInvento"}. This project is a private, non-commercial hobby project. </p>
 
           <div className="flex items-center gap-5">
-            <a className="hover:text-indigo-700" href={`${repositoryUrl}#readme`} target="_blank" rel="noreferrer">Documentation</a>
+            <a className="hover:text-indigo-700" href="https://openinvento.github.io/docs/docs/intro" target="_blank" rel="noreferrer">Documentation</a>
             <a className="hover:text-indigo-700" href={repositoryUrl} target="_blank" rel="noreferrer">GitHub</a>
             <Link href="/privacy" className="">Privacy Policy</Link>
             </div>
